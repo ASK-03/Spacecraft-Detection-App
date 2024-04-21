@@ -17,4 +17,4 @@ To install and use, follow the steps given below:
 ## Submitted by
 
 - [Abhishek Singh Kushwaha (12140050)](https://github.com/ASK-03)
-- [Kriti Gupta ()]()
+- [Kriti Gupta (12140940)](https://github.com/Kriti1106)
