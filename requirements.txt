@@ -1,0 +1,7 @@
+streamlit==1.29.0
+torch==2.0.0
+torchvision==0.15.1
+pandas==1.5.3
+numpy==1.23.5
+pillow
+ultralytics
