@@ -53,7 +53,7 @@ def main():
     st.title("Space Craft Detection App")
     st.text("Build with Streamlit,YoloV8 and OpenCV")
 
-    menu = ["Detection", "Metrics", "About"]
+    menu = ["About", "Metrics", "Detection"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "Detection":
@@ -142,7 +142,7 @@ def main():
         st.dataframe(data)
 
     elif choice == "About":
-        st.subheader("About")
+        st.markdown("## **About**")
         st.write(
             """Spacecraft inspection is the process of closely examining a spacecraft in orbit to assess its condition and functionality. Current spacecraft inspection methods often involve time-consuming and hazardous astronaut-led assessments or the use of expensive LIDAR sensors and robotic arms.  
 The project aims to develop algorithms for use on inspector spacecraft to take and process photos of other ships in space. The solution will focus on identifying the boundaries of generic spacecraft in photos. The key operational challenges include handling diverse and potentially damaged spacecraft types in the dataset and developing solutions that run efficiently on a simulated NASA R5 spacecraft's small computer board within a specific code execution platform.
@@ -154,7 +154,7 @@ The project aims to develop algorithms for use on inspector spacecraft to take a
         )
 
         # Add information about the creators
-        st.markdown("**Creators:**")
+        st.markdown("## **Creators:**")
         st.write("- [Abhishek Singh Kushwaha](https://github.com/ASK-03)")
         st.write("- [Kriti Gupta](https://github.com/Kriti1106)")  # Add more creators if needed
 
